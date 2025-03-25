@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4842c544eb5984be1fb41de209cd1874 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4842c544eb5984be1fb41de209cd1874" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4842c544eb5984be1fb41de209cd1874 = L.map(
+                "map_4842c544eb5984be1fb41de209cd1874",
+                {
+                    center: [6.2444, -75.5732],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f2d4c33819d591a006f292c6e3924fc5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f2d4c33819d591a006f292c6e3924fc5.addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+            var circle_marker_84e225c53e93531c32f1cc31582d3f5b = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_761d0d027491b5b7848d8dff6d698a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_997a0d92d4f127fed4a80bb591eb033a = $(`<div id="html_997a0d92d4f127fed4a80bb591eb033a" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_761d0d027491b5b7848d8dff6d698a1e.setContent(html_997a0d92d4f127fed4a80bb591eb033a);
+            
+        
+
+        circle_marker_84e225c53e93531c32f1cc31582d3f5b.bindPopup(popup_761d0d027491b5b7848d8dff6d698a1e)
+        ;
+
+        
+    
+    
+            var circle_marker_af9344e516173cc014d775c35778a151 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_02487658d7cb071595a5997dee7d3fa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3503b189c34afedfb5ac257617ad132 = $(`<div id="html_a3503b189c34afedfb5ac257617ad132" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 1</div>`)[0];
+                popup_02487658d7cb071595a5997dee7d3fa6.setContent(html_a3503b189c34afedfb5ac257617ad132);
+            
+        
+
+        circle_marker_af9344e516173cc014d775c35778a151.bindPopup(popup_02487658d7cb071595a5997dee7d3fa6)
+        ;
+
+        
+    
+    
+            var circle_marker_2a4ae5a208fab51210a3078acc229f50 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_41e2d4e7b820a4ce34f27c6ce638d974 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ee3016c7c19ab9b26a59d0507d9d36a = $(`<div id="html_0ee3016c7c19ab9b26a59d0507d9d36a" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_41e2d4e7b820a4ce34f27c6ce638d974.setContent(html_0ee3016c7c19ab9b26a59d0507d9d36a);
+            
+        
+
+        circle_marker_2a4ae5a208fab51210a3078acc229f50.bindPopup(popup_41e2d4e7b820a4ce34f27c6ce638d974)
+        ;
+
+        
+    
+    
+            var circle_marker_e04df8ad4994c70fce7c8ffee22cc68f = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_91461b04dbf01a4af626feced6ba1a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3240c8009a560313ff9a41fc058a5154 = $(`<div id="html_3240c8009a560313ff9a41fc058a5154" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_91461b04dbf01a4af626feced6ba1a59.setContent(html_3240c8009a560313ff9a41fc058a5154);
+            
+        
+
+        circle_marker_e04df8ad4994c70fce7c8ffee22cc68f.bindPopup(popup_91461b04dbf01a4af626feced6ba1a59)
+        ;
+
+        
+    
+    
+            var circle_marker_d4018e4e00d55424c216eed4283cc99d = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_dff512cf8b1030d56e836f239cfda6d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3578993ce16863b0f805f9fbd1396c5 = $(`<div id="html_e3578993ce16863b0f805f9fbd1396c5" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_dff512cf8b1030d56e836f239cfda6d6.setContent(html_e3578993ce16863b0f805f9fbd1396c5);
+            
+        
+
+        circle_marker_d4018e4e00d55424c216eed4283cc99d.bindPopup(popup_dff512cf8b1030d56e836f239cfda6d6)
+        ;
+
+        
+    
+    
+            var circle_marker_9f160b7c8a481feab43e9a20d4ec9703 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_29da240ef5ebb19539bb350bec42da93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e96b1d940d29f0348e97a97618105bbd = $(`<div id="html_e96b1d940d29f0348e97a97618105bbd" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_29da240ef5ebb19539bb350bec42da93.setContent(html_e96b1d940d29f0348e97a97618105bbd);
+            
+        
+
+        circle_marker_9f160b7c8a481feab43e9a20d4ec9703.bindPopup(popup_29da240ef5ebb19539bb350bec42da93)
+        ;
+
+        
+    
+    
+            var circle_marker_9706ad3a59ddadaeac3a90357612a829 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_5062a80af06699daff798b32b1f362c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5baff3fcffbc63d8fd8705e70fbb643 = $(`<div id="html_a5baff3fcffbc63d8fd8705e70fbb643" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_5062a80af06699daff798b32b1f362c1.setContent(html_a5baff3fcffbc63d8fd8705e70fbb643);
+            
+        
+
+        circle_marker_9706ad3a59ddadaeac3a90357612a829.bindPopup(popup_5062a80af06699daff798b32b1f362c1)
+        ;
+
+        
+    
+    
+            var circle_marker_b46badbae6ce09af920f145d4274d94a = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_a525d1cec83f92d5925c78b0343eb23c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81699140995460bbb50b2edf5c181413 = $(`<div id="html_81699140995460bbb50b2edf5c181413" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 1</div>`)[0];
+                popup_a525d1cec83f92d5925c78b0343eb23c.setContent(html_81699140995460bbb50b2edf5c181413);
+            
+        
+
+        circle_marker_b46badbae6ce09af920f145d4274d94a.bindPopup(popup_a525d1cec83f92d5925c78b0343eb23c)
+        ;
+
+        
+    
+    
+            var circle_marker_4f794b6aadb3919d3c0e2902133f12a9 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_67407ff315f8a8114efd36ec85584727 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0d1cbb864d971eca166551468033355 = $(`<div id="html_c0d1cbb864d971eca166551468033355" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_67407ff315f8a8114efd36ec85584727.setContent(html_c0d1cbb864d971eca166551468033355);
+            
+        
+
+        circle_marker_4f794b6aadb3919d3c0e2902133f12a9.bindPopup(popup_67407ff315f8a8114efd36ec85584727)
+        ;
+
+        
+    
+    
+            var circle_marker_3ef05d5c2ac171034ed28a53dd84efd6 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_a55422f27fda46ae70f000d5212268ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15286652dcf5ddbfad7ab5479e4ece0b = $(`<div id="html_15286652dcf5ddbfad7ab5479e4ece0b" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 1</div>`)[0];
+                popup_a55422f27fda46ae70f000d5212268ad.setContent(html_15286652dcf5ddbfad7ab5479e4ece0b);
+            
+        
+
+        circle_marker_3ef05d5c2ac171034ed28a53dd84efd6.bindPopup(popup_a55422f27fda46ae70f000d5212268ad)
+        ;
+
+        
+    
+    
+            var circle_marker_f1cbc5a113271b980aed79cd2b0421b9 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_d861044efd672db46485bb9da01d8df4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca7360ae57c4753a3d25bee49a809247 = $(`<div id="html_ca7360ae57c4753a3d25bee49a809247" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_d861044efd672db46485bb9da01d8df4.setContent(html_ca7360ae57c4753a3d25bee49a809247);
+            
+        
+
+        circle_marker_f1cbc5a113271b980aed79cd2b0421b9.bindPopup(popup_d861044efd672db46485bb9da01d8df4)
+        ;
+
+        
+    
+    
+            var circle_marker_6373519a800526eb77315ffd33965f57 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e9762a89461748be90b7ce14069d8d82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_470e56d93a5968a6b365bd99fff37f69 = $(`<div id="html_470e56d93a5968a6b365bd99fff37f69" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_e9762a89461748be90b7ce14069d8d82.setContent(html_470e56d93a5968a6b365bd99fff37f69);
+            
+        
+
+        circle_marker_6373519a800526eb77315ffd33965f57.bindPopup(popup_e9762a89461748be90b7ce14069d8d82)
+        ;
+
+        
+    
+    
+            var circle_marker_79ae230d74498c8c2f326ddc3ab953f4 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_3901052b92b0f8a69e99685a28427f06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_deba2f5aa9d73c8634d63e0e63fd2033 = $(`<div id="html_deba2f5aa9d73c8634d63e0e63fd2033" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 1</div>`)[0];
+                popup_3901052b92b0f8a69e99685a28427f06.setContent(html_deba2f5aa9d73c8634d63e0e63fd2033);
+            
+        
+
+        circle_marker_79ae230d74498c8c2f326ddc3ab953f4.bindPopup(popup_3901052b92b0f8a69e99685a28427f06)
+        ;
+
+        
+    
+    
+            var circle_marker_05909b067277c61abff63ebcd4120c63 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_67ad211cf62b73972efe505cd697f522 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c73da7e94fcf68c03a3b2615855d8b62 = $(`<div id="html_c73da7e94fcf68c03a3b2615855d8b62" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 1</div>`)[0];
+                popup_67ad211cf62b73972efe505cd697f522.setContent(html_c73da7e94fcf68c03a3b2615855d8b62);
+            
+        
+
+        circle_marker_05909b067277c61abff63ebcd4120c63.bindPopup(popup_67ad211cf62b73972efe505cd697f522)
+        ;
+
+        
+    
+    
+            var circle_marker_a66fa244e484e45d2e51e89eefd783fe = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_6946214e03ac0b42d37c8142cb5dc95c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9565824310320ada9a09681f9486a0fa = $(`<div id="html_9565824310320ada9a09681f9486a0fa" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_6946214e03ac0b42d37c8142cb5dc95c.setContent(html_9565824310320ada9a09681f9486a0fa);
+            
+        
+
+        circle_marker_a66fa244e484e45d2e51e89eefd783fe.bindPopup(popup_6946214e03ac0b42d37c8142cb5dc95c)
+        ;
+
+        
+    
+    
+            var circle_marker_4e3b5600c1cc1f9a0af51a83e03bc531 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_86cb149a4ebabb54ce7fc1f01721427f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0d9e5e74ddf296b4b73d94bca183d4a = $(`<div id="html_d0d9e5e74ddf296b4b73d94bca183d4a" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_86cb149a4ebabb54ce7fc1f01721427f.setContent(html_d0d9e5e74ddf296b4b73d94bca183d4a);
+            
+        
+
+        circle_marker_4e3b5600c1cc1f9a0af51a83e03bc531.bindPopup(popup_86cb149a4ebabb54ce7fc1f01721427f)
+        ;
+
+        
+    
+    
+            var circle_marker_1d9018719cb83130331ce5e59357e302 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e2a4120ea9c64a77f05bc9c85b575d59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b20b6ed764220315972a5ec104b3a94 = $(`<div id="html_6b20b6ed764220315972a5ec104b3a94" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 1</div>`)[0];
+                popup_e2a4120ea9c64a77f05bc9c85b575d59.setContent(html_6b20b6ed764220315972a5ec104b3a94);
+            
+        
+
+        circle_marker_1d9018719cb83130331ce5e59357e302.bindPopup(popup_e2a4120ea9c64a77f05bc9c85b575d59)
+        ;
+
+        
+    
+    
+            var circle_marker_11457920f5267fd7f45cd7aaf698d9ce = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_8a4a35dd1dac492ec0a15bf252e5645a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f0033a1d1b496396367a371ea893135 = $(`<div id="html_1f0033a1d1b496396367a371ea893135" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_8a4a35dd1dac492ec0a15bf252e5645a.setContent(html_1f0033a1d1b496396367a371ea893135);
+            
+        
+
+        circle_marker_11457920f5267fd7f45cd7aaf698d9ce.bindPopup(popup_8a4a35dd1dac492ec0a15bf252e5645a)
+        ;
+
+        
+    
+    
+            var circle_marker_227152d729993f9680f78fe8bb39baea = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_af5b2d9c02f6d6d1e112e379277b0bee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79b90d7ec50a41dd06f39c8d93e00bfe = $(`<div id="html_79b90d7ec50a41dd06f39c8d93e00bfe" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_af5b2d9c02f6d6d1e112e379277b0bee.setContent(html_79b90d7ec50a41dd06f39c8d93e00bfe);
+            
+        
+
+        circle_marker_227152d729993f9680f78fe8bb39baea.bindPopup(popup_af5b2d9c02f6d6d1e112e379277b0bee)
+        ;
+
+        
+    
+    
+            var circle_marker_5dfd03c8e84053ccca978363506d8aab = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_4477ddc0e9121f9946a8ea93f9984246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94e7ede0b5c6234279fdce024ebbaf15 = $(`<div id="html_94e7ede0b5c6234279fdce024ebbaf15" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 1</div>`)[0];
+                popup_4477ddc0e9121f9946a8ea93f9984246.setContent(html_94e7ede0b5c6234279fdce024ebbaf15);
+            
+        
+
+        circle_marker_5dfd03c8e84053ccca978363506d8aab.bindPopup(popup_4477ddc0e9121f9946a8ea93f9984246)
+        ;
+
+        
+    
+    
+            var circle_marker_ef5265bb68a36ac341ccd464fff638cc = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_29cd12da7019ac47be79f41d0b638915 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a6cbfacdbcff87d380a773ca8e16bcd = $(`<div id="html_9a6cbfacdbcff87d380a773ca8e16bcd" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_29cd12da7019ac47be79f41d0b638915.setContent(html_9a6cbfacdbcff87d380a773ca8e16bcd);
+            
+        
+
+        circle_marker_ef5265bb68a36ac341ccd464fff638cc.bindPopup(popup_29cd12da7019ac47be79f41d0b638915)
+        ;
+
+        
+    
+    
+            var circle_marker_fdc609bf24d6e15c29e436e549dcf3bc = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_45e8c02b486b31ff0e84a6737393957c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_331a662e82c568ffc3bbfbbb9be81fb1 = $(`<div id="html_331a662e82c568ffc3bbfbbb9be81fb1" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_45e8c02b486b31ff0e84a6737393957c.setContent(html_331a662e82c568ffc3bbfbbb9be81fb1);
+            
+        
+
+        circle_marker_fdc609bf24d6e15c29e436e549dcf3bc.bindPopup(popup_45e8c02b486b31ff0e84a6737393957c)
+        ;
+
+        
+    
+    
+            var circle_marker_b14629facd63d4727831ec940ef5acb5 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_db1926813f9ee009052cdc26aac9746f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a01a2905781647c343838d8d9b7f0a50 = $(`<div id="html_a01a2905781647c343838d8d9b7f0a50" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 1</div>`)[0];
+                popup_db1926813f9ee009052cdc26aac9746f.setContent(html_a01a2905781647c343838d8d9b7f0a50);
+            
+        
+
+        circle_marker_b14629facd63d4727831ec940ef5acb5.bindPopup(popup_db1926813f9ee009052cdc26aac9746f)
+        ;
+
+        
+    
+    
+            var circle_marker_e6f38e65dd84e40c880fcb364d91aab6 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_f6dc0c2caa8a0e2b557ad54c84d5a9fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efe8ba02cf3bb5725282ea5d50df0385 = $(`<div id="html_efe8ba02cf3bb5725282ea5d50df0385" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_f6dc0c2caa8a0e2b557ad54c84d5a9fe.setContent(html_efe8ba02cf3bb5725282ea5d50df0385);
+            
+        
+
+        circle_marker_e6f38e65dd84e40c880fcb364d91aab6.bindPopup(popup_f6dc0c2caa8a0e2b557ad54c84d5a9fe)
+        ;
+
+        
+    
+    
+            var circle_marker_4599bd48652dc0c94f5ae2dd6f5a791c = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_967f3342994835976fe431c8b6ab9665 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b3c2b9d1130f33d568d5b3ff77e1136 = $(`<div id="html_9b3c2b9d1130f33d568d5b3ff77e1136" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 1</div>`)[0];
+                popup_967f3342994835976fe431c8b6ab9665.setContent(html_9b3c2b9d1130f33d568d5b3ff77e1136);
+            
+        
+
+        circle_marker_4599bd48652dc0c94f5ae2dd6f5a791c.bindPopup(popup_967f3342994835976fe431c8b6ab9665)
+        ;
+
+        
+    
+    
+            var circle_marker_e88f287bee00dce692ddc4e32bf5f23d = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_db76975a7a02880a008f55f8a48b53ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0339eb9e6b33718f0aadada56b178621 = $(`<div id="html_0339eb9e6b33718f0aadada56b178621" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_db76975a7a02880a008f55f8a48b53ab.setContent(html_0339eb9e6b33718f0aadada56b178621);
+            
+        
+
+        circle_marker_e88f287bee00dce692ddc4e32bf5f23d.bindPopup(popup_db76975a7a02880a008f55f8a48b53ab)
+        ;
+
+        
+    
+    
+            var circle_marker_b0aace9a6654c4661570191a87ef8093 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_192297ed3b662f56862502507a93db8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_338a154e6d4159024832fa045f92bb4c = $(`<div id="html_338a154e6d4159024832fa045f92bb4c" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_192297ed3b662f56862502507a93db8f.setContent(html_338a154e6d4159024832fa045f92bb4c);
+            
+        
+
+        circle_marker_b0aace9a6654c4661570191a87ef8093.bindPopup(popup_192297ed3b662f56862502507a93db8f)
+        ;
+
+        
+    
+    
+            var circle_marker_06b7d017ddffd1d712a92f4433ed35c2 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_f28935fe1235ce615ff16a5b0ee2f99a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_195cfa154af4456d3a5423864e2dae2f = $(`<div id="html_195cfa154af4456d3a5423864e2dae2f" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_f28935fe1235ce615ff16a5b0ee2f99a.setContent(html_195cfa154af4456d3a5423864e2dae2f);
+            
+        
+
+        circle_marker_06b7d017ddffd1d712a92f4433ed35c2.bindPopup(popup_f28935fe1235ce615ff16a5b0ee2f99a)
+        ;
+
+        
+    
+    
+            var circle_marker_d02bc0e8d9da40fc09035163b26f4757 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_9468684259d117d4715a1684aa78dd42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c00cb663dc3a21a24641da25b1c7da4 = $(`<div id="html_2c00cb663dc3a21a24641da25b1c7da4" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_9468684259d117d4715a1684aa78dd42.setContent(html_2c00cb663dc3a21a24641da25b1c7da4);
+            
+        
+
+        circle_marker_d02bc0e8d9da40fc09035163b26f4757.bindPopup(popup_9468684259d117d4715a1684aa78dd42)
+        ;
+
+        
+    
+    
+            var circle_marker_a4f63b89aed034dc2dcfd2a42017ccfc = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_5a360c0e0b364c17f21e557a030b23c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_478ff5c5a666b66c5a7bec9af3ac5b00 = $(`<div id="html_478ff5c5a666b66c5a7bec9af3ac5b00" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_5a360c0e0b364c17f21e557a030b23c1.setContent(html_478ff5c5a666b66c5a7bec9af3ac5b00);
+            
+        
+
+        circle_marker_a4f63b89aed034dc2dcfd2a42017ccfc.bindPopup(popup_5a360c0e0b364c17f21e557a030b23c1)
+        ;
+
+        
+    
+    
+            var circle_marker_1a860e01ee8fd957f735ac4ad44420f9 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_2cb25d3c2cd48b2d16571a1c12103d83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6e5a23ec4bdc8d011ebeebe57b4b7d9 = $(`<div id="html_d6e5a23ec4bdc8d011ebeebe57b4b7d9" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_2cb25d3c2cd48b2d16571a1c12103d83.setContent(html_d6e5a23ec4bdc8d011ebeebe57b4b7d9);
+            
+        
+
+        circle_marker_1a860e01ee8fd957f735ac4ad44420f9.bindPopup(popup_2cb25d3c2cd48b2d16571a1c12103d83)
+        ;
+
+        
+    
+    
+            var circle_marker_194e37646ab7fde82b54719b31642e72 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_bc8fa12b3bba3cb9612c553e7ccf3bfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e81eac2ee05a5898d6c7269dfd614571 = $(`<div id="html_e81eac2ee05a5898d6c7269dfd614571" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_bc8fa12b3bba3cb9612c553e7ccf3bfd.setContent(html_e81eac2ee05a5898d6c7269dfd614571);
+            
+        
+
+        circle_marker_194e37646ab7fde82b54719b31642e72.bindPopup(popup_bc8fa12b3bba3cb9612c553e7ccf3bfd)
+        ;
+
+        
+    
+    
+            var circle_marker_e6b488057575845b6a81b6ce1420e13e = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e56f89dbebc61dafa4ee6739fe0b27ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f70eaa43b26aebc66f8fc0d676d4e0 = $(`<div id="html_16f70eaa43b26aebc66f8fc0d676d4e0" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_e56f89dbebc61dafa4ee6739fe0b27ed.setContent(html_16f70eaa43b26aebc66f8fc0d676d4e0);
+            
+        
+
+        circle_marker_e6b488057575845b6a81b6ce1420e13e.bindPopup(popup_e56f89dbebc61dafa4ee6739fe0b27ed)
+        ;
+
+        
+    
+    
+            var circle_marker_ddc12a8c7dc895f0194a297e1360d986 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_df2ca9b61a87978a8ca0d189285972ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6170c919ef15c9824107a9e535d37ecc = $(`<div id="html_6170c919ef15c9824107a9e535d37ecc" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_df2ca9b61a87978a8ca0d189285972ba.setContent(html_6170c919ef15c9824107a9e535d37ecc);
+            
+        
+
+        circle_marker_ddc12a8c7dc895f0194a297e1360d986.bindPopup(popup_df2ca9b61a87978a8ca0d189285972ba)
+        ;
+
+        
+    
+    
+            var circle_marker_62aff42a8a2b40521fd2f4140df8e2ee = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_d272e3e68be56d9e94e22f6bda9586ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b53e3ee6a19a4688bfdae1899ba46756 = $(`<div id="html_b53e3ee6a19a4688bfdae1899ba46756" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_d272e3e68be56d9e94e22f6bda9586ad.setContent(html_b53e3ee6a19a4688bfdae1899ba46756);
+            
+        
+
+        circle_marker_62aff42a8a2b40521fd2f4140df8e2ee.bindPopup(popup_d272e3e68be56d9e94e22f6bda9586ad)
+        ;
+
+        
+    
+    
+            var circle_marker_0ea8bf948c7c9aab47456a9244a23979 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_32346f82c90d11aad19c8acbb20ef085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67ccdeed6bc6979b9448a3960dd484d0 = $(`<div id="html_67ccdeed6bc6979b9448a3960dd484d0" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_32346f82c90d11aad19c8acbb20ef085.setContent(html_67ccdeed6bc6979b9448a3960dd484d0);
+            
+        
+
+        circle_marker_0ea8bf948c7c9aab47456a9244a23979.bindPopup(popup_32346f82c90d11aad19c8acbb20ef085)
+        ;
+
+        
+    
+    
+            var circle_marker_ae2802f22523ff019e9589f1d39aff33 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_24cd12c9c25f9229912f289040ed2680 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd3e9b96e48f1478b95973e4df20f1f9 = $(`<div id="html_cd3e9b96e48f1478b95973e4df20f1f9" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_24cd12c9c25f9229912f289040ed2680.setContent(html_cd3e9b96e48f1478b95973e4df20f1f9);
+            
+        
+
+        circle_marker_ae2802f22523ff019e9589f1d39aff33.bindPopup(popup_24cd12c9c25f9229912f289040ed2680)
+        ;
+
+        
+    
+    
+            var circle_marker_f18df20760f8b7a432fa7550be64c585 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e7f5c9781d0258ba9b10d7e7217ff826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_739f6877ba8da9f5fbc12338d341dc6d = $(`<div id="html_739f6877ba8da9f5fbc12338d341dc6d" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_e7f5c9781d0258ba9b10d7e7217ff826.setContent(html_739f6877ba8da9f5fbc12338d341dc6d);
+            
+        
+
+        circle_marker_f18df20760f8b7a432fa7550be64c585.bindPopup(popup_e7f5c9781d0258ba9b10d7e7217ff826)
+        ;
+
+        
+    
+    
+            var circle_marker_636cc2b2af9837908aaa9d144356dd6f = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_8cb92a92d74166864e7dae78c6bd6b3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_508d84bf686a0db145b7539593a0d7eb = $(`<div id="html_508d84bf686a0db145b7539593a0d7eb" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_8cb92a92d74166864e7dae78c6bd6b3e.setContent(html_508d84bf686a0db145b7539593a0d7eb);
+            
+        
+
+        circle_marker_636cc2b2af9837908aaa9d144356dd6f.bindPopup(popup_8cb92a92d74166864e7dae78c6bd6b3e)
+        ;
+
+        
+    
+    
+            var circle_marker_b2207737a8016bb86274db94cc660cb7 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e4ffc55568434090522257e8141c60bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f484a2a9dc9ffb293c02b48e2ea965f3 = $(`<div id="html_f484a2a9dc9ffb293c02b48e2ea965f3" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_e4ffc55568434090522257e8141c60bb.setContent(html_f484a2a9dc9ffb293c02b48e2ea965f3);
+            
+        
+
+        circle_marker_b2207737a8016bb86274db94cc660cb7.bindPopup(popup_e4ffc55568434090522257e8141c60bb)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d7030e7c39ae021ada061b5779e5ac = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_0e085460d46055388bb912a12c28301c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d207b408557ac4edc6c58993538aa20 = $(`<div id="html_2d207b408557ac4edc6c58993538aa20" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_0e085460d46055388bb912a12c28301c.setContent(html_2d207b408557ac4edc6c58993538aa20);
+            
+        
+
+        circle_marker_d8d7030e7c39ae021ada061b5779e5ac.bindPopup(popup_0e085460d46055388bb912a12c28301c)
+        ;
+
+        
+    
+    
+            var circle_marker_d7a626ca9c56ecfd5dfcbff37de7c5ad = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_deb6ebbd7e987f2cb2a585a47e0b2bd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89e19f49d99296f52cfb17b8420f8185 = $(`<div id="html_89e19f49d99296f52cfb17b8420f8185" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_deb6ebbd7e987f2cb2a585a47e0b2bd3.setContent(html_89e19f49d99296f52cfb17b8420f8185);
+            
+        
+
+        circle_marker_d7a626ca9c56ecfd5dfcbff37de7c5ad.bindPopup(popup_deb6ebbd7e987f2cb2a585a47e0b2bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_9f59516af6e3407eed23ce6d25cf5346 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_0dcbc2c6840e51efe21151c3d582364a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b338ab7236dc6b4afbc32b46e2b0c5fc = $(`<div id="html_b338ab7236dc6b4afbc32b46e2b0c5fc" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_0dcbc2c6840e51efe21151c3d582364a.setContent(html_b338ab7236dc6b4afbc32b46e2b0c5fc);
+            
+        
+
+        circle_marker_9f59516af6e3407eed23ce6d25cf5346.bindPopup(popup_0dcbc2c6840e51efe21151c3d582364a)
+        ;
+
+        
+    
+    
+            var circle_marker_0ce33f56a2c51b3a63ae3ccde3eb96e3 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_5cc90a227b4263557321bd998d27b045 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c001c9e93af81935fdde234078be2b4f = $(`<div id="html_c001c9e93af81935fdde234078be2b4f" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_5cc90a227b4263557321bd998d27b045.setContent(html_c001c9e93af81935fdde234078be2b4f);
+            
+        
+
+        circle_marker_0ce33f56a2c51b3a63ae3ccde3eb96e3.bindPopup(popup_5cc90a227b4263557321bd998d27b045)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ae2e1e8ea971aad396c257382856cf = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_ecff91a52aa918ee2c1eace52ffbc19c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a16b4171ca91b45537829c49b11cf16 = $(`<div id="html_6a16b4171ca91b45537829c49b11cf16" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 1</div>`)[0];
+                popup_ecff91a52aa918ee2c1eace52ffbc19c.setContent(html_6a16b4171ca91b45537829c49b11cf16);
+            
+        
+
+        circle_marker_b0ae2e1e8ea971aad396c257382856cf.bindPopup(popup_ecff91a52aa918ee2c1eace52ffbc19c)
+        ;
+
+        
+    
+    
+            var circle_marker_3f3dee4ecfa90e56317d847a1df23157 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_59489a02040b8afcad2299bd6c8061fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52ca500731f3f96bd6d62dc7cd1a54c8 = $(`<div id="html_52ca500731f3f96bd6d62dc7cd1a54c8" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_59489a02040b8afcad2299bd6c8061fa.setContent(html_52ca500731f3f96bd6d62dc7cd1a54c8);
+            
+        
+
+        circle_marker_3f3dee4ecfa90e56317d847a1df23157.bindPopup(popup_59489a02040b8afcad2299bd6c8061fa)
+        ;
+
+        
+    
+    
+            var circle_marker_fb32a988a13c932637b1258350f3da8b = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_af50f954ff7541c8582ab20a4ef2e4f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4470701b6c7742d311701d919d53b5eb = $(`<div id="html_4470701b6c7742d311701d919d53b5eb" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_af50f954ff7541c8582ab20a4ef2e4f1.setContent(html_4470701b6c7742d311701d919d53b5eb);
+            
+        
+
+        circle_marker_fb32a988a13c932637b1258350f3da8b.bindPopup(popup_af50f954ff7541c8582ab20a4ef2e4f1)
+        ;
+
+        
+    
+    
+            var circle_marker_5bd01311e6b1bea5129a4b7467643244 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_89f5c7a3e70d0a64151416326f2a1e6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f45f2d3865b236ef03420ecb4450fd2e = $(`<div id="html_f45f2d3865b236ef03420ecb4450fd2e" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_89f5c7a3e70d0a64151416326f2a1e6c.setContent(html_f45f2d3865b236ef03420ecb4450fd2e);
+            
+        
+
+        circle_marker_5bd01311e6b1bea5129a4b7467643244.bindPopup(popup_89f5c7a3e70d0a64151416326f2a1e6c)
+        ;
+
+        
+    
+    
+            var circle_marker_f6b7ab755621873b1c124d53c64bc5db = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_ce3e289b9b50375d4c5f8bdbad6358fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19fc67a30666bff6e1c7168beca28d9f = $(`<div id="html_19fc67a30666bff6e1c7168beca28d9f" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_ce3e289b9b50375d4c5f8bdbad6358fd.setContent(html_19fc67a30666bff6e1c7168beca28d9f);
+            
+        
+
+        circle_marker_f6b7ab755621873b1c124d53c64bc5db.bindPopup(popup_ce3e289b9b50375d4c5f8bdbad6358fd)
+        ;
+
+        
+    
+    
+            var circle_marker_953a91cfd697691d98c51f03ee62da9f = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_c78e6139da87b8ce68ea17b3938675ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61edd493503ad06cf26d0d22eea1ee1a = $(`<div id="html_61edd493503ad06cf26d0d22eea1ee1a" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 1</div>`)[0];
+                popup_c78e6139da87b8ce68ea17b3938675ee.setContent(html_61edd493503ad06cf26d0d22eea1ee1a);
+            
+        
+
+        circle_marker_953a91cfd697691d98c51f03ee62da9f.bindPopup(popup_c78e6139da87b8ce68ea17b3938675ee)
+        ;
+
+        
+    
+    
+            var circle_marker_a451e58a480010c97f8f224b4e62de63 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e9ea7bd27b1d1bbe8d02d3e12bb148c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fab09d458ac75de6a7f1ce134a5368cc = $(`<div id="html_fab09d458ac75de6a7f1ce134a5368cc" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_e9ea7bd27b1d1bbe8d02d3e12bb148c8.setContent(html_fab09d458ac75de6a7f1ce134a5368cc);
+            
+        
+
+        circle_marker_a451e58a480010c97f8f224b4e62de63.bindPopup(popup_e9ea7bd27b1d1bbe8d02d3e12bb148c8)
+        ;
+
+        
+    
+    
+            var circle_marker_c101352bf230ae18025608a6c92489b8 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_7c44901dca4e2cf3eaddb624267e1081 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa27ea8e100657d62124e1e7b25c451d = $(`<div id="html_fa27ea8e100657d62124e1e7b25c451d" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_7c44901dca4e2cf3eaddb624267e1081.setContent(html_fa27ea8e100657d62124e1e7b25c451d);
+            
+        
+
+        circle_marker_c101352bf230ae18025608a6c92489b8.bindPopup(popup_7c44901dca4e2cf3eaddb624267e1081)
+        ;
+
+        
+    
+    
+            var circle_marker_66c9ec7c48bfdc7961427fc399b29434 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_22e02a8ed4b7b109238b9653f382ce4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3d0b4c2b8b473f179cf37c06f13f230 = $(`<div id="html_c3d0b4c2b8b473f179cf37c06f13f230" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_22e02a8ed4b7b109238b9653f382ce4a.setContent(html_c3d0b4c2b8b473f179cf37c06f13f230);
+            
+        
+
+        circle_marker_66c9ec7c48bfdc7961427fc399b29434.bindPopup(popup_22e02a8ed4b7b109238b9653f382ce4a)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ca30f7dade196ea8516edb8a5cc353 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_9dd1ca3821af0647808c82cf204f5e3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e133740c4d8bd5c87e3fe52baa42a26 = $(`<div id="html_3e133740c4d8bd5c87e3fe52baa42a26" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_9dd1ca3821af0647808c82cf204f5e3d.setContent(html_3e133740c4d8bd5c87e3fe52baa42a26);
+            
+        
+
+        circle_marker_b0ca30f7dade196ea8516edb8a5cc353.bindPopup(popup_9dd1ca3821af0647808c82cf204f5e3d)
+        ;
+
+        
+    
+    
+            var circle_marker_b089a1447799abb22b5dc430f64f2b9a = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_290ac5607057eda4fd6786226d4ac479 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fea768c041154e42fb3528b9954e964c = $(`<div id="html_fea768c041154e42fb3528b9954e964c" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_290ac5607057eda4fd6786226d4ac479.setContent(html_fea768c041154e42fb3528b9954e964c);
+            
+        
+
+        circle_marker_b089a1447799abb22b5dc430f64f2b9a.bindPopup(popup_290ac5607057eda4fd6786226d4ac479)
+        ;
+
+        
+    
+    
+            var circle_marker_3faf159d76e13b8aee05d5f944d0ff4b = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_aaf1f64f2b72abe1e84aa49b6c74f6cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8964e8bb7aa2c76ef997a347e13e6f = $(`<div id="html_bd8964e8bb7aa2c76ef997a347e13e6f" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_aaf1f64f2b72abe1e84aa49b6c74f6cc.setContent(html_bd8964e8bb7aa2c76ef997a347e13e6f);
+            
+        
+
+        circle_marker_3faf159d76e13b8aee05d5f944d0ff4b.bindPopup(popup_aaf1f64f2b72abe1e84aa49b6c74f6cc)
+        ;
+
+        
+    
+    
+            var circle_marker_d801b662ef15aef921fcd5dcfac339df = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_56dcb0671044d938210cae4f9b5c6964 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64da1654845d3dbde818930f3ce6a7c8 = $(`<div id="html_64da1654845d3dbde818930f3ce6a7c8" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_56dcb0671044d938210cae4f9b5c6964.setContent(html_64da1654845d3dbde818930f3ce6a7c8);
+            
+        
+
+        circle_marker_d801b662ef15aef921fcd5dcfac339df.bindPopup(popup_56dcb0671044d938210cae4f9b5c6964)
+        ;
+
+        
+    
+    
+            var circle_marker_c2d2e151860a346e7e384e2aceb0d901 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_5219c8d9fa82c93389bc0f1e48735d1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ec7e77cb8e3f1110ae19bf896180afd = $(`<div id="html_2ec7e77cb8e3f1110ae19bf896180afd" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_5219c8d9fa82c93389bc0f1e48735d1f.setContent(html_2ec7e77cb8e3f1110ae19bf896180afd);
+            
+        
+
+        circle_marker_c2d2e151860a346e7e384e2aceb0d901.bindPopup(popup_5219c8d9fa82c93389bc0f1e48735d1f)
+        ;
+
+        
+    
+    
+            var circle_marker_317417b1d5580630c86fa0729373c87a = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_31f06605d575feeea09c82f4fe3858a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15d54b1b5b3a6c1bdeeadb0afd226c34 = $(`<div id="html_15d54b1b5b3a6c1bdeeadb0afd226c34" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_31f06605d575feeea09c82f4fe3858a2.setContent(html_15d54b1b5b3a6c1bdeeadb0afd226c34);
+            
+        
+
+        circle_marker_317417b1d5580630c86fa0729373c87a.bindPopup(popup_31f06605d575feeea09c82f4fe3858a2)
+        ;
+
+        
+    
+    
+            var circle_marker_64e48a08f8a3782ae472d19ab60f455f = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_03e9daa27dea11305cc44ca6c40a2aa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cca34a55b623e237d5bf6082155433b = $(`<div id="html_8cca34a55b623e237d5bf6082155433b" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_03e9daa27dea11305cc44ca6c40a2aa2.setContent(html_8cca34a55b623e237d5bf6082155433b);
+            
+        
+
+        circle_marker_64e48a08f8a3782ae472d19ab60f455f.bindPopup(popup_03e9daa27dea11305cc44ca6c40a2aa2)
+        ;
+
+        
+    
+    
+            var circle_marker_64fbbde0923f04e2efcb572b9e439003 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_daa447ff4bb2d9066a4f11d7ad5b3a8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73a5ec71a28421925ffd197409014eb6 = $(`<div id="html_73a5ec71a28421925ffd197409014eb6" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_daa447ff4bb2d9066a4f11d7ad5b3a8a.setContent(html_73a5ec71a28421925ffd197409014eb6);
+            
+        
+
+        circle_marker_64fbbde0923f04e2efcb572b9e439003.bindPopup(popup_daa447ff4bb2d9066a4f11d7ad5b3a8a)
+        ;
+
+        
+    
+    
+            var circle_marker_f2e81e031028b49851ca739c677643b7 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_f92b69802a89d2adc9429e96975568da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a31bd6560efa175af4c48cf178b065a = $(`<div id="html_7a31bd6560efa175af4c48cf178b065a" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_f92b69802a89d2adc9429e96975568da.setContent(html_7a31bd6560efa175af4c48cf178b065a);
+            
+        
+
+        circle_marker_f2e81e031028b49851ca739c677643b7.bindPopup(popup_f92b69802a89d2adc9429e96975568da)
+        ;
+
+        
+    
+    
+            var circle_marker_b91646bcc962796c86be1af0de6a5816 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_aa791814d4396a452b7e84089043d9cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b31e80f58f6f256dc2025ee490ef81d1 = $(`<div id="html_b31e80f58f6f256dc2025ee490ef81d1" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_aa791814d4396a452b7e84089043d9cc.setContent(html_b31e80f58f6f256dc2025ee490ef81d1);
+            
+        
+
+        circle_marker_b91646bcc962796c86be1af0de6a5816.bindPopup(popup_aa791814d4396a452b7e84089043d9cc)
+        ;
+
+        
+    
+    
+            var circle_marker_d5e18960ab4fa49597fcfe5bca831820 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_41ed1a89ff1a94a435cf4223fe0f3f32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34c8be2c84363fbc066422810275ff3a = $(`<div id="html_34c8be2c84363fbc066422810275ff3a" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_41ed1a89ff1a94a435cf4223fe0f3f32.setContent(html_34c8be2c84363fbc066422810275ff3a);
+            
+        
+
+        circle_marker_d5e18960ab4fa49597fcfe5bca831820.bindPopup(popup_41ed1a89ff1a94a435cf4223fe0f3f32)
+        ;
+
+        
+    
+    
+            var circle_marker_b217057edc001e0842e81b67d6dc75c1 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_63c628716555b48aec25931893802e73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2ae07e5f7de7b43d2ceb6dcf3ea4097 = $(`<div id="html_b2ae07e5f7de7b43d2ceb6dcf3ea4097" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_63c628716555b48aec25931893802e73.setContent(html_b2ae07e5f7de7b43d2ceb6dcf3ea4097);
+            
+        
+
+        circle_marker_b217057edc001e0842e81b67d6dc75c1.bindPopup(popup_63c628716555b48aec25931893802e73)
+        ;
+
+        
+    
+    
+            var circle_marker_e408fdf347d9df82f252beeaa6018f7c = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_5a109f44b4a84ea0e540ce26a7af5579 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55d746a8fbb045fef01326089c1e509f = $(`<div id="html_55d746a8fbb045fef01326089c1e509f" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_5a109f44b4a84ea0e540ce26a7af5579.setContent(html_55d746a8fbb045fef01326089c1e509f);
+            
+        
+
+        circle_marker_e408fdf347d9df82f252beeaa6018f7c.bindPopup(popup_5a109f44b4a84ea0e540ce26a7af5579)
+        ;
+
+        
+    
+    
+            var circle_marker_d3663abcfce1eb22de76987b8b570cb3 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_130f28da9a0da0368d93f19912f9a117 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e289be8f0caa3218a2717e5ea96bed0 = $(`<div id="html_9e289be8f0caa3218a2717e5ea96bed0" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_130f28da9a0da0368d93f19912f9a117.setContent(html_9e289be8f0caa3218a2717e5ea96bed0);
+            
+        
+
+        circle_marker_d3663abcfce1eb22de76987b8b570cb3.bindPopup(popup_130f28da9a0da0368d93f19912f9a117)
+        ;
+
+        
+    
+    
+            var circle_marker_05c1f1191b9b2c0b071173c1394c504f = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_6c432830dff48485ce66533d912282e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4ded01292e8086898bce3e1d7f85eed = $(`<div id="html_d4ded01292e8086898bce3e1d7f85eed" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_6c432830dff48485ce66533d912282e4.setContent(html_d4ded01292e8086898bce3e1d7f85eed);
+            
+        
+
+        circle_marker_05c1f1191b9b2c0b071173c1394c504f.bindPopup(popup_6c432830dff48485ce66533d912282e4)
+        ;
+
+        
+    
+    
+            var circle_marker_fe3b5ba2d9de110a602f9a2b24e89ea0 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_c13431f67e2ee0ea950476a3f7d2677e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d779db89570f88bfd37c92b17df7d6b9 = $(`<div id="html_d779db89570f88bfd37c92b17df7d6b9" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_c13431f67e2ee0ea950476a3f7d2677e.setContent(html_d779db89570f88bfd37c92b17df7d6b9);
+            
+        
+
+        circle_marker_fe3b5ba2d9de110a602f9a2b24e89ea0.bindPopup(popup_c13431f67e2ee0ea950476a3f7d2677e)
+        ;
+
+        
+    
+    
+            var circle_marker_67ad86f26675139189cca792776f6b1e = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_9fd342476dc0e4d6d31a5b7ea61e1beb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1c5c30cc9d8a7bac351cdfdd7386284 = $(`<div id="html_b1c5c30cc9d8a7bac351cdfdd7386284" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_9fd342476dc0e4d6d31a5b7ea61e1beb.setContent(html_b1c5c30cc9d8a7bac351cdfdd7386284);
+            
+        
+
+        circle_marker_67ad86f26675139189cca792776f6b1e.bindPopup(popup_9fd342476dc0e4d6d31a5b7ea61e1beb)
+        ;
+
+        
+    
+    
+            var circle_marker_e2bdf6a4725a0f9be3a5b972a4fda081 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_c1aced6b040404f6fed0ff8db050b5a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af4b5955f20efcd651f280f695a48b17 = $(`<div id="html_af4b5955f20efcd651f280f695a48b17" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_c1aced6b040404f6fed0ff8db050b5a7.setContent(html_af4b5955f20efcd651f280f695a48b17);
+            
+        
+
+        circle_marker_e2bdf6a4725a0f9be3a5b972a4fda081.bindPopup(popup_c1aced6b040404f6fed0ff8db050b5a7)
+        ;
+
+        
+    
+    
+            var circle_marker_506ebf69f7e05bcc651ced45c0c5351f = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_4daaab6db4ed7e946d2d5c17de388111 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cbfdeadda2e5e94dd49894e7bde6316 = $(`<div id="html_8cbfdeadda2e5e94dd49894e7bde6316" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_4daaab6db4ed7e946d2d5c17de388111.setContent(html_8cbfdeadda2e5e94dd49894e7bde6316);
+            
+        
+
+        circle_marker_506ebf69f7e05bcc651ced45c0c5351f.bindPopup(popup_4daaab6db4ed7e946d2d5c17de388111)
+        ;
+
+        
+    
+    
+            var circle_marker_8607d5bb9a78d4154faa2b560dc1544a = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_326ea6766de31aeec1df5e798d32d28e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f78167d5087ca151fda2a2e312b4150 = $(`<div id="html_0f78167d5087ca151fda2a2e312b4150" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_326ea6766de31aeec1df5e798d32d28e.setContent(html_0f78167d5087ca151fda2a2e312b4150);
+            
+        
+
+        circle_marker_8607d5bb9a78d4154faa2b560dc1544a.bindPopup(popup_326ea6766de31aeec1df5e798d32d28e)
+        ;
+
+        
+    
+    
+            var circle_marker_4b42b3b62cfae1838ab72ceeda2f8eb0 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_b260893f121ce650ee156206c605f46d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45440a4a9ad118704afff4b9e6b26957 = $(`<div id="html_45440a4a9ad118704afff4b9e6b26957" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_b260893f121ce650ee156206c605f46d.setContent(html_45440a4a9ad118704afff4b9e6b26957);
+            
+        
+
+        circle_marker_4b42b3b62cfae1838ab72ceeda2f8eb0.bindPopup(popup_b260893f121ce650ee156206c605f46d)
+        ;
+
+        
+    
+    
+            var circle_marker_df5b2208179a554a329e7368f941983a = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_48935a218024187c1b56414638d93e6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5952eaefbefc15acee80b2f55133b073 = $(`<div id="html_5952eaefbefc15acee80b2f55133b073" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_48935a218024187c1b56414638d93e6b.setContent(html_5952eaefbefc15acee80b2f55133b073);
+            
+        
+
+        circle_marker_df5b2208179a554a329e7368f941983a.bindPopup(popup_48935a218024187c1b56414638d93e6b)
+        ;
+
+        
+    
+    
+            var circle_marker_ebb4d1c296256a8267f10dcc1bf55798 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_1032d3b509b7e8a1f9d09da6e5586c90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe9b660e6aefab3b930c1f0bcb759a11 = $(`<div id="html_fe9b660e6aefab3b930c1f0bcb759a11" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_1032d3b509b7e8a1f9d09da6e5586c90.setContent(html_fe9b660e6aefab3b930c1f0bcb759a11);
+            
+        
+
+        circle_marker_ebb4d1c296256a8267f10dcc1bf55798.bindPopup(popup_1032d3b509b7e8a1f9d09da6e5586c90)
+        ;
+
+        
+    
+    
+            var circle_marker_6b08c6dbb4b31e5c956fd11d494242d1 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_1f705dc0d06bdeaaf287dc63d80236c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da50187df580fc08d6ea28d6fea5dcdf = $(`<div id="html_da50187df580fc08d6ea28d6fea5dcdf" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_1f705dc0d06bdeaaf287dc63d80236c1.setContent(html_da50187df580fc08d6ea28d6fea5dcdf);
+            
+        
+
+        circle_marker_6b08c6dbb4b31e5c956fd11d494242d1.bindPopup(popup_1f705dc0d06bdeaaf287dc63d80236c1)
+        ;
+
+        
+    
+    
+            var circle_marker_789b06fba522164b9e207dab6b3e8e6d = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_6e8420f4d6b20afb503eea8d2111943f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6513653a5372cdddbaed4e870c86056 = $(`<div id="html_c6513653a5372cdddbaed4e870c86056" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_6e8420f4d6b20afb503eea8d2111943f.setContent(html_c6513653a5372cdddbaed4e870c86056);
+            
+        
+
+        circle_marker_789b06fba522164b9e207dab6b3e8e6d.bindPopup(popup_6e8420f4d6b20afb503eea8d2111943f)
+        ;
+
+        
+    
+    
+            var circle_marker_d261bb402ce42c15481a18ec6c262e63 = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_a7cf138070d9a424a9d02e9128cfc3b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afddf8a9335df212b2cdbf917c19289a = $(`<div id="html_afddf8a9335df212b2cdbf917c19289a" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_a7cf138070d9a424a9d02e9128cfc3b9.setContent(html_afddf8a9335df212b2cdbf917c19289a);
+            
+        
+
+        circle_marker_d261bb402ce42c15481a18ec6c262e63.bindPopup(popup_a7cf138070d9a424a9d02e9128cfc3b9)
+        ;
+
+        
+    
+    
+            var circle_marker_c2afe88427d0c70e9adb98c67c15ace9 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_ba3fae83d56ef67e01613d3b4b83a1b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb59787d7ba1ef3b7ccd48620c2040a5 = $(`<div id="html_eb59787d7ba1ef3b7ccd48620c2040a5" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_ba3fae83d56ef67e01613d3b4b83a1b9.setContent(html_eb59787d7ba1ef3b7ccd48620c2040a5);
+            
+        
+
+        circle_marker_c2afe88427d0c70e9adb98c67c15ace9.bindPopup(popup_ba3fae83d56ef67e01613d3b4b83a1b9)
+        ;
+
+        
+    
+    
+            var circle_marker_da2c1b3c0eb64664b9c0846aabd47698 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_e3817ce85e6024a008e2146ebaada408 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de412f737842f8f10b37cc74561e0f7d = $(`<div id="html_de412f737842f8f10b37cc74561e0f7d" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 1</div>`)[0];
+                popup_e3817ce85e6024a008e2146ebaada408.setContent(html_de412f737842f8f10b37cc74561e0f7d);
+            
+        
+
+        circle_marker_da2c1b3c0eb64664b9c0846aabd47698.bindPopup(popup_e3817ce85e6024a008e2146ebaada408)
+        ;
+
+        
+    
+    
+            var circle_marker_26b18915d48cd13fe9501d3354d4ea7b = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_9129368987e6aa5a1ed0f9c2748d8680 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cba9fb1536488d578792e30e40100b5 = $(`<div id="html_1cba9fb1536488d578792e30e40100b5" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_9129368987e6aa5a1ed0f9c2748d8680.setContent(html_1cba9fb1536488d578792e30e40100b5);
+            
+        
+
+        circle_marker_26b18915d48cd13fe9501d3354d4ea7b.bindPopup(popup_9129368987e6aa5a1ed0f9c2748d8680)
+        ;
+
+        
+    
+    
+            var circle_marker_5ab68ea430776a2647d4049ccad57312 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_127ea4a4f6ac13049611157fb7acb894 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d71c3a650249b3846c5cca17ed352332 = $(`<div id="html_d71c3a650249b3846c5cca17ed352332" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_127ea4a4f6ac13049611157fb7acb894.setContent(html_d71c3a650249b3846c5cca17ed352332);
+            
+        
+
+        circle_marker_5ab68ea430776a2647d4049ccad57312.bindPopup(popup_127ea4a4f6ac13049611157fb7acb894)
+        ;
+
+        
+    
+    
+            var circle_marker_7dac5930eb866678cc40e11f22ade9fb = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_df6e92b2250da5551963f391c54c6af0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07b8f73361efe368732ab1565e92a3e4 = $(`<div id="html_07b8f73361efe368732ab1565e92a3e4" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 0</div>`)[0];
+                popup_df6e92b2250da5551963f391c54c6af0.setContent(html_07b8f73361efe368732ab1565e92a3e4);
+            
+        
+
+        circle_marker_7dac5930eb866678cc40e11f22ade9fb.bindPopup(popup_df6e92b2250da5551963f391c54c6af0)
+        ;
+
+        
+    
+    
+            var circle_marker_ae28c99fa0da176e5ed6f49e9f0527f3 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_b3fd818bf7694785725e2f1b0f4c9e57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2db385ee80be7db0ea58ecc6f6b4730 = $(`<div id="html_a2db385ee80be7db0ea58ecc6f6b4730" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 1</div>`)[0];
+                popup_b3fd818bf7694785725e2f1b0f4c9e57.setContent(html_a2db385ee80be7db0ea58ecc6f6b4730);
+            
+        
+
+        circle_marker_ae28c99fa0da176e5ed6f49e9f0527f3.bindPopup(popup_b3fd818bf7694785725e2f1b0f4c9e57)
+        ;
+
+        
+    
+    
+            var circle_marker_8634ebcfe32cc3ae2ce522df04d498ad = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_f3f77c7fe564bb011e4ed19181692c35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e01f6f239ff8ae2ceeb47fc54084f3cb = $(`<div id="html_e01f6f239ff8ae2ceeb47fc54084f3cb" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_f3f77c7fe564bb011e4ed19181692c35.setContent(html_e01f6f239ff8ae2ceeb47fc54084f3cb);
+            
+        
+
+        circle_marker_8634ebcfe32cc3ae2ce522df04d498ad.bindPopup(popup_f3f77c7fe564bb011e4ed19181692c35)
+        ;
+
+        
+    
+    
+            var circle_marker_f80d16b0bfb2b3fa0706c4cadc506591 = L.circleMarker(
+                [6.3357, -75.5585],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_7bad3b70eb35d179a25da97271ed8134 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca7f41a957c1cf4fbc1681bedd2440e8 = $(`<div id="html_ca7f41a957c1cf4fbc1681bedd2440e8" style="width: 100.0%; height: 100.0%;">Localidad: Bello<br>Riesgo: 0</div>`)[0];
+                popup_7bad3b70eb35d179a25da97271ed8134.setContent(html_ca7f41a957c1cf4fbc1681bedd2440e8);
+            
+        
+
+        circle_marker_f80d16b0bfb2b3fa0706c4cadc506591.bindPopup(popup_7bad3b70eb35d179a25da97271ed8134)
+        ;
+
+        
+    
+    
+            var circle_marker_fc7cb7c344f20082b45c667162bd2f1b = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_af7f50750ea66d7df8c4842aec636ff8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b141bba3bf9f51e435ed445bea3675c = $(`<div id="html_0b141bba3bf9f51e435ed445bea3675c" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_af7f50750ea66d7df8c4842aec636ff8.setContent(html_0b141bba3bf9f51e435ed445bea3675c);
+            
+        
+
+        circle_marker_fc7cb7c344f20082b45c667162bd2f1b.bindPopup(popup_af7f50750ea66d7df8c4842aec636ff8)
+        ;
+
+        
+    
+    
+            var circle_marker_a03d1aee2314d2c13fbe0ac8e8c8d1f2 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_46bfe9762e48f5ee0a55e03a9727c62a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6021f35863318dbabd8d9c288576e9f = $(`<div id="html_e6021f35863318dbabd8d9c288576e9f" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_46bfe9762e48f5ee0a55e03a9727c62a.setContent(html_e6021f35863318dbabd8d9c288576e9f);
+            
+        
+
+        circle_marker_a03d1aee2314d2c13fbe0ac8e8c8d1f2.bindPopup(popup_46bfe9762e48f5ee0a55e03a9727c62a)
+        ;
+
+        
+    
+    
+            var circle_marker_43b4eaa3a2bd4945259ace96b21856ef = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_7045d57e6619ab36edba10394d32ff6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51b6ad223a653758f43f9352515846b5 = $(`<div id="html_51b6ad223a653758f43f9352515846b5" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_7045d57e6619ab36edba10394d32ff6a.setContent(html_51b6ad223a653758f43f9352515846b5);
+            
+        
+
+        circle_marker_43b4eaa3a2bd4945259ace96b21856ef.bindPopup(popup_7045d57e6619ab36edba10394d32ff6a)
+        ;
+
+        
+    
+    
+            var circle_marker_fe31b42ad4b7b7531ec07b3e8aee7d8d = L.circleMarker(
+                [6.2486, -75.5739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_f2743993a344f2f869a8a211abbce345 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c43137d1d324d8ff0763d49ff504f531 = $(`<div id="html_c43137d1d324d8ff0763d49ff504f531" style="width: 100.0%; height: 100.0%;">Localidad: Comuna 13<br>Riesgo: 1</div>`)[0];
+                popup_f2743993a344f2f869a8a211abbce345.setContent(html_c43137d1d324d8ff0763d49ff504f531);
+            
+        
+
+        circle_marker_fe31b42ad4b7b7531ec07b3e8aee7d8d.bindPopup(popup_f2743993a344f2f869a8a211abbce345)
+        ;
+
+        
+    
+    
+            var circle_marker_162fb58fe0fbe7e4359079cb9698db68 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_a4bcf2bbe8a7ba080ab32b1539b2d26f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37c3afed076378e7d0065a7549d43460 = $(`<div id="html_37c3afed076378e7d0065a7549d43460" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_a4bcf2bbe8a7ba080ab32b1539b2d26f.setContent(html_37c3afed076378e7d0065a7549d43460);
+            
+        
+
+        circle_marker_162fb58fe0fbe7e4359079cb9698db68.bindPopup(popup_a4bcf2bbe8a7ba080ab32b1539b2d26f)
+        ;
+
+        
+    
+    
+            var circle_marker_439de97dc88b7be24fb6e5478b8a4298 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_cf55b6a83e383cdb449778b320cc4d43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d0158d479ffd3097ecacd2d2dc59d98 = $(`<div id="html_5d0158d479ffd3097ecacd2d2dc59d98" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_cf55b6a83e383cdb449778b320cc4d43.setContent(html_5d0158d479ffd3097ecacd2d2dc59d98);
+            
+        
+
+        circle_marker_439de97dc88b7be24fb6e5478b8a4298.bindPopup(popup_cf55b6a83e383cdb449778b320cc4d43)
+        ;
+
+        
+    
+    
+            var circle_marker_9d4988ed872f65c56451667f5ae0b559 = L.circleMarker(
+                [6.2444, -75.5732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_387f03afbfaf49028e6f9042cfac3751 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14db1898aca8e02de9882552f4350e03 = $(`<div id="html_14db1898aca8e02de9882552f4350e03" style="width: 100.0%; height: 100.0%;">Localidad: La Candelaria<br>Riesgo: 0</div>`)[0];
+                popup_387f03afbfaf49028e6f9042cfac3751.setContent(html_14db1898aca8e02de9882552f4350e03);
+            
+        
+
+        circle_marker_9d4988ed872f65c56451667f5ae0b559.bindPopup(popup_387f03afbfaf49028e6f9042cfac3751)
+        ;
+
+        
+    
+    
+            var circle_marker_90d015a2fefc9d503744ea9cd03cc6c1 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_fec8357fb0b66ef96910488033f7948a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ebdaddc4e8e3a2e57ea2dfea7372754 = $(`<div id="html_4ebdaddc4e8e3a2e57ea2dfea7372754" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_fec8357fb0b66ef96910488033f7948a.setContent(html_4ebdaddc4e8e3a2e57ea2dfea7372754);
+            
+        
+
+        circle_marker_90d015a2fefc9d503744ea9cd03cc6c1.bindPopup(popup_fec8357fb0b66ef96910488033f7948a)
+        ;
+
+        
+    
+    
+            var circle_marker_75c762a315bcac0532ca3ef8fff62d35 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_c0846c231b94ce8164f338a2acf096a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6be0cb755fa730f275110e6783bf8bf9 = $(`<div id="html_6be0cb755fa730f275110e6783bf8bf9" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_c0846c231b94ce8164f338a2acf096a6.setContent(html_6be0cb755fa730f275110e6783bf8bf9);
+            
+        
+
+        circle_marker_75c762a315bcac0532ca3ef8fff62d35.bindPopup(popup_c0846c231b94ce8164f338a2acf096a6)
+        ;
+
+        
+    
+    
+            var circle_marker_b7120ee4420b8959fa2329c9563a5451 = L.circleMarker(
+                [6.2088, -75.5704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_b8ec280c1ce00fcb4d108bca1549d227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82c456aa36a6ea29f4e174d64a68c797 = $(`<div id="html_82c456aa36a6ea29f4e174d64a68c797" style="width: 100.0%; height: 100.0%;">Localidad: El Poblado<br>Riesgo: 0</div>`)[0];
+                popup_b8ec280c1ce00fcb4d108bca1549d227.setContent(html_82c456aa36a6ea29f4e174d64a68c797);
+            
+        
+
+        circle_marker_b7120ee4420b8959fa2329c9563a5451.bindPopup(popup_b8ec280c1ce00fcb4d108bca1549d227)
+        ;
+
+        
+    
+    
+            var circle_marker_6873fb9c242439e83f0696f23d2dffbd = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_0d17dddda77e38dd622084234b200862 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af678c7ce27bde23fd567c88228085ca = $(`<div id="html_af678c7ce27bde23fd567c88228085ca" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 0</div>`)[0];
+                popup_0d17dddda77e38dd622084234b200862.setContent(html_af678c7ce27bde23fd567c88228085ca);
+            
+        
+
+        circle_marker_6873fb9c242439e83f0696f23d2dffbd.bindPopup(popup_0d17dddda77e38dd622084234b200862)
+        ;
+
+        
+    
+    
+            var circle_marker_37743702ccd789c8af6ffc6ec0000e8c = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_aca69661b7cf8d55b83eda5699f9031a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d9d6ed9610f50f31b9738d66ee75fb0 = $(`<div id="html_4d9d6ed9610f50f31b9738d66ee75fb0" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_aca69661b7cf8d55b83eda5699f9031a.setContent(html_4d9d6ed9610f50f31b9738d66ee75fb0);
+            
+        
+
+        circle_marker_37743702ccd789c8af6ffc6ec0000e8c.bindPopup(popup_aca69661b7cf8d55b83eda5699f9031a)
+        ;
+
+        
+    
+    
+            var circle_marker_8f17b2593fa3d7d63b00feb476dedf97 = L.circleMarker(
+                [6.2598, -75.6003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4842c544eb5984be1fb41de209cd1874);
+        
+    
+        var popup_70c57edc77ad9fe78917acebd46fe0f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfb0fb3cd7c6bc029f4903a1994bcfdf = $(`<div id="html_cfb0fb3cd7c6bc029f4903a1994bcfdf" style="width: 100.0%; height: 100.0%;">Localidad: Robledo<br>Riesgo: 1</div>`)[0];
+                popup_70c57edc77ad9fe78917acebd46fe0f1.setContent(html_cfb0fb3cd7c6bc029f4903a1994bcfdf);
+            
+        
+
+        circle_marker_8f17b2593fa3d7d63b00feb476dedf97.bindPopup(popup_70c57edc77ad9fe78917acebd46fe0f1)
+        ;
+
+        
+    
+</script>
+</html>
