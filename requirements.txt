@@ -5,6 +5,6 @@ streamlit
   xgboost
   folium
   streamlit-folium
-  .gitignore
+
 
 
